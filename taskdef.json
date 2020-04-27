@@ -1,0 +1,33 @@
+{
+  "taskRoleArn": "arn:aws:iam::359761372359:role/ecs-task-role-for-springboot",
+  "executionRoleArn": "arn:aws:iam::359761372359:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/sun-api",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "springboottaskdefinition-LogGroup-stream"
+        }
+      },
+      "portMappings": [
+        {
+          "hostPort": 8080,
+          "protocol": "tcp",
+          "containerPort": 8080
+        }
+      ],
+      "image": "<IMAGE1_NAME>",
+      "essential": true,
+      "name": "springboottaskdefinition"
+    }
+  ],
+  "memory": "1024",
+  "family": "springboottaskdefinition",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "networkMode": "awsvpc",
+  "cpu": "512"
+}
