@@ -20,11 +20,11 @@
       ],
       "image": "<IMAGE1_NAME>",
       "essential": true,
-      "name": "springboottaskdefinition:16"
+      "name": "springboottaskdefinition"
     }
   ],
   "memory": "1024",
-  "family": "springboottaskdefinition:16",
+  "family": "springboottaskdefinition",
   "requiresCompatibilities": [
     "FARGATE"
   ],
