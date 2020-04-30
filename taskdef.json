@@ -20,11 +20,11 @@
       ],
       "image": "<IMAGE1_NAME>",
       "essential": true,
-      "name": "springboottaskdefinition"
+      "name": "bluegreenspringboottaskdefinition"
     }
   ],
   "memory": "1024",
-  "family": "springboottaskdefinition",
+  "family": "bluegreenspringboottaskdefinition",
   "requiresCompatibilities": [
     "FARGATE"
   ],
