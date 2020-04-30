@@ -1,6 +1,6 @@
 {
-  "taskRoleArn": "arn:aws:iam::359761372359:role/ecs-task-role-for-springboot",
-  "executionRoleArn": "arn:aws:iam::359761372359:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::359761372359:role/ecs-task-execution-role",
+  "executionRoleArn": "arn:aws:iam::359761372359:role/fargate_iam_role",
   "containerDefinitions": [
     {
       "logConfiguration": {
