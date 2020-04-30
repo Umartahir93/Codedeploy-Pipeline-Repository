@@ -7,3 +7,4 @@ Resources:
         LoadBalancerInfo:
           ContainerName: "springboottaskdefinition"
           ContainerPort: 8080
+        PlatformVersion: "LATEST"
