@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: <TASK_DEFINITION>
+        TaskDefinition: "arn:aws:ecs:us-east-1:359761372359:task-definition/springboottaskdefinition:23"
         LoadBalancerInfo:
           ContainerName: "springboottaskdefinition"
           ContainerPort: 8080
