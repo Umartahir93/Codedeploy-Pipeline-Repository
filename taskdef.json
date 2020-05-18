@@ -1,6 +1,6 @@
 {
-  "taskRoleArn": "arn:aws:iam::359761372359:role/ecs-task-execution-role",
-  "executionRoleArn": "arn:aws:iam::359761372359:role/fargate_iam_role",
+  "taskRoleArn": "arn:aws:iam::xxx:role/ecs-task-execution-role",
+  "executionRoleArn": "arn:aws:iam::xxx:role/fargate_iam_role",
   "containerDefinitions": [
     {
       "logConfiguration": {
